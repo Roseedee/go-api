@@ -38,5 +38,5 @@ func main() {
 	})
 
 	// Start the server
-	r.Run(":8080") // Default listens on localhost:8080
+	r.Run("0.0.0.0:8080") // Default listens on localhost:8080
 }
